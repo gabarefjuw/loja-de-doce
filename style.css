@@ -13,15 +13,22 @@ img{max-width: 100%;}
 p {font-size: 1.2em; line-height: 1.4em; color: #141A28;}
 
 h2 {color: #141A28;}
-
 .container {
-    width: 980px;
+width: 980px;
     margin: 0 auto;
     padding: 20px;
     display: grid;
     justify-content: space-between;
     /* align-items: center; */
     grid-template-columns: 33% 33% 33%;
+}
+.containe {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 html, body {
