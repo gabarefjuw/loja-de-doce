@@ -18,9 +18,10 @@ h2 {color: #141A28;}
     width: 980px;
     margin: 0 auto;
     padding: 20px;
-    display: flex;
+    display: grid;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    grid-template-columns: 33% 33% 33%;
 }
 
 html, body {
