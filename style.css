@@ -189,8 +189,8 @@ main {width: 100%;}
     color: rgb(250, 255, 250);
     font-size: 15px;
     font-family: "arial", sans-serif;
-    @media screen and (max-width 525px) {
-        img [class="hide"] {
-            display: none !important;
-    }
-    }
+   @media screen and  (max: width 525px);{
+    img[class="hide"] {
+        display: none !important;
+   }
+   }
